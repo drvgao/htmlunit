@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <classes>
+      <class name="com.rest.twitter.CreateTweet">
+        <methods>
+          <include name="getEnvData"/>
+          <include name="postTweet"/>
+        </methods>
+      </class> <!-- com.rest.twitter.CreateTweet -->
+      <class name="com.rest.jira.JIRA_AddComments">
+        <methods>
+          <include name="testAddJiraComment"/>
+          <include name="getEnvData"/>
+        </methods>
+      </class> <!-- com.rest.jira.JIRA_AddComments -->
+      <class name="com.rest.jira.JIRA_Login_Test">
+        <methods>
+          <include name="getEnvData"/>
+          <include name="testCreateJIRAIssue"/>
+        </methods>
+      </class> <!-- com.rest.jira.JIRA_Login_Test -->
+      <class name="com.rest.twitter.TwitterAPI">
+        <methods>
+          <include name="getTweet"/>
+          <include name="getEnvData"/>
+        </methods>
+      </class> <!-- com.rest.twitter.TwitterAPI -->
+      <class name="com.rest.qc.QC_API">
+        <methods>
+          <include name="qcAuthentication"/>
+          <include name="qcGetDomains"/>
+          <include name="getEnvData"/>
+        </methods>
+      </class> <!-- com.rest.qc.QC_API -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

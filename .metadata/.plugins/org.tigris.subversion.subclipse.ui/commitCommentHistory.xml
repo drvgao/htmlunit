@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CommitComments>	<CommitComment>AUTO-329 Pushed deep changes</CommitComment>
+	<CommitComment>AUTO-329 added taskkill logic</CommitComment>
+	<CommitComment>AUTO-329 changed log level DEBUG TO ERROR</CommitComment>
+	<CommitComment>AUTO-329 included getDriver().quit(); in the closeWebDriver method. And added taskkill command. also added taskkill for firefox.exe and chrome.exe</CommitComment>
+	<CommitComment>AUTO-329 commented getDriver().quit(); in the closeWebDriver method. And added taskkill command. also added taskkill for firefox.exe and chrome.exe</CommitComment>
+	<CommitComment>AUTO-329 commented getDriver().quit(); in the closeWebDriver method. And added taskkill command.</CommitComment>
+	<CommitComment>AUTO-329 changed snapshot from 1.14 to 1.16 to include task-kill in the closeWebDriver method. it was missed in previous build.</CommitComment>
+	<CommitComment>AUTO-329 changed snapshot from 1.9 to 1.11 to verify browser not reachable issue.</CommitComment>
+</CommitComments>

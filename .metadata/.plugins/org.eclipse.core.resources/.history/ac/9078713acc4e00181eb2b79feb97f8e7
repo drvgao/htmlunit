@@ -1,0 +1,4 @@
+<alm-authentication>
+	<user>username</user>
+	<password>password</password>
+</alm-authentication>

@@ -1,0 +1,300 @@
+<table border='1'>
+<tr>
+<th>Class name</th>
+<th>Method name</th>
+<th>Groups</th>
+</tr><tr>
+<td>com.restbasics.test.HeadersTest</td>
+<td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@Test</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>verifyHeader</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@BeforeClass</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@BeforeMethod</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@AfterMethod</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@AfterClass</td>
+</tr>
+<tr>
+<td>com.restbasics2.tests.DeleteTest2</td>
+<td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@Test</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>deleteTest</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@BeforeClass</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@BeforeMethod</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@AfterMethod</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@AfterClass</td>
+</tr>
+<tr>
+<td>com.restbasics2.tests.AddPlaceXMLTest2</td>
+<td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@Test</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>addPlaceXML</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@BeforeClass</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@BeforeMethod</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@AfterMethod</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@AfterClass</td>
+</tr>
+<tr>
+<td>com.rest.twitter.CreateTweet</td>
+<td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@Test</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>postTweet</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@BeforeClass</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@BeforeMethod</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@AfterMethod</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@AfterClass</td>
+</tr>
+<tr>
+<td>com.restbasics.test.PathParamTest</td>
+<td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@Test</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>getCountry</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>getCountry2</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@BeforeClass</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@BeforeMethod</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@AfterMethod</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@AfterClass</td>
+</tr>
+<tr>
+<td>com.restbasics.test.PostQueryParamTest</td>
+<td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@Test</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>postTest</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@BeforeClass</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@BeforeMethod</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@AfterMethod</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@AfterClass</td>
+</tr>
+<tr>
+<td>com.rest.qc.QC_API</td>
+<td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@Test</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>qcAuthentication</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>qcGetDomains</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@BeforeClass</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@BeforeMethod</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@AfterMethod</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@AfterClass</td>
+</tr>
+<tr>
+<td>com.restbasics2.tests.AddPlaceXMLTest</td>
+<td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@Test</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>addPlaceXML</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@BeforeClass</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@BeforeMethod</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@AfterMethod</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@AfterClass</td>
+</tr>
+<tr>
+<td>com.restbasics.test.DeleteTest</td>
+<td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@Test</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>deleteTest</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@BeforeClass</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@BeforeMethod</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@AfterMethod</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@AfterClass</td>
+</tr>
+<tr>
+<td>com.rest.jira.JIRA_AddComments</td>
+<td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@Test</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>testAddJiraComment</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@BeforeClass</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@BeforeMethod</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@AfterMethod</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@AfterClass</td>
+</tr>
+<tr>
+<td>com.restbasics3.tests.JsonArray_Log_Test</td>
+<td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@Test</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>verifyNearByLocation</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@BeforeClass</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@BeforeMethod</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@AfterMethod</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@AfterClass</td>
+</tr>
+<tr>
+<td>com.rest.jira.JIRA_Login_Test</td>
+<td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@Test</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>testCreateJIRAIssue</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@BeforeClass</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@BeforeMethod</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@AfterMethod</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@AfterClass</td>
+</tr>
+<tr>
+<td>com.rest.twitter.TwitterAPI</td>
+<td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@Test</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>getTweet</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@BeforeClass</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@BeforeMethod</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@AfterMethod</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@AfterClass</td>
+</tr>
+</table>

@@ -1,0 +1,7 @@
+activeRuntime=C\:\\rdev\\robotprojs\\robotenv\\Scripts
+eclipse.preferences.version=1
+otherRuntimes=C\:\\Users\\rdurgam\\AppData\\Local\\Programs\\Python\\Python36;C\:\\rdev\\robotprojs\\robotenv\\Scripts
+red.activeRuntimeExec=Python
+red.launch.additionalRobotArguments=--argumentfile argumentfile.txt
+red.otherRuntimesExecs=Python;Python
+red.problem.category.IMPORT_PATH_RELATIVE_VIA_MODULES_PATH=IGNORE

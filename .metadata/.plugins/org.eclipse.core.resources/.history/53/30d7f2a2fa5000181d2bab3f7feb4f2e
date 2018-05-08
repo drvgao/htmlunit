@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="6" ignored="0" total="15" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="16683" started-at="2018-05-06T06:54:52Z" finished-at="2018-05-06T06:55:09Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="16683" started-at="2018-05-06T06:54:52Z" finished-at="2018-05-06T06:55:09Z">
+      <class name="com.restbasics.test.HeadersTest">
+        <test-method status="PASS" signature="verifyHeader()[pri:0, instance:com.restbasics.test.HeadersTest@234bef66]" name="verifyHeader" duration-ms="1229" started-at="2018-05-06T06:55:00Z" finished-at="2018-05-06T06:55:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeader -->
+      </class> <!-- com.restbasics.test.HeadersTest -->
+      <class name="com.restbasics2.tests.DeleteTest2">
+        <test-method status="PASS" signature="deleteTest()[pri:0, instance:com.restbasics2.tests.DeleteTest2@2c9f9fb0]" name="deleteTest" duration-ms="582" started-at="2018-05-06T06:55:08Z" finished-at="2018-05-06T06:55:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTest -->
+      </class> <!-- com.restbasics2.tests.DeleteTest2 -->
+      <class name="com.restbasics2.tests.AddPlaceXMLTest2">
+        <test-method status="PASS" signature="addPlaceXML()[pri:0, instance:com.restbasics2.tests.AddPlaceXMLTest2@5a61f5df]" name="addPlaceXML" duration-ms="347" started-at="2018-05-06T06:54:58Z" finished-at="2018-05-06T06:54:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPlaceXML -->
+      </class> <!-- com.restbasics2.tests.AddPlaceXMLTest2 -->
+      <class name="com.rest.twitter.CreateTweet">
+        <test-method status="FAIL" signature="postTweet()[pri:0, instance:com.rest.twitter.CreateTweet@3551a94]" name="postTweet" duration-ms="42" started-at="2018-05-06T06:54:59Z" finished-at="2018-05-06T06:54:59Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[com/github/scribejava/core/model/AbstractRequest]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: com/github/scribejava/core/model/AbstractRequest
+at io.restassured.internal.http.AuthConfig.oauth(AuthConfig.java:184)
+at io.restassured.internal.http.AuthConfig$oauth.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:149)
+at io.restassured.authentication.OAuthScheme.authenticate(OAuthScheme.groovy:35)
+at io.restassured.authentication.AuthenticationScheme$authenticate.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+at io.restassured.authentication.AuthenticationScheme$authenticate.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1262)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:149)
+at io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.log.RequestLoggingFilter.filter(RequestLoggingFilter.java:124)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.FilterContext$next.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1731)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1737)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+at io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy:174)
+at io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy)
+at com.rest.twitter.CreateTweet.postTweet(CreateTweet.java:52)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+Caused by: java.lang.ClassNotFoundException: com.github.scribejava.core.model.AbstractRequest
+at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+... 98 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTweet -->
+      </class> <!-- com.rest.twitter.CreateTweet -->
+      <class name="com.restbasics.test.PathParamTest">
+        <test-method status="PASS" signature="getCountry()[pri:0, instance:com.restbasics.test.PathParamTest@9f70c54]" name="getCountry" duration-ms="705" started-at="2018-05-06T06:54:59Z" finished-at="2018-05-06T06:54:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCountry -->
+        <test-method status="PASS" signature="getCountry2()[pri:0, instance:com.restbasics.test.PathParamTest@9f70c54]" name="getCountry2" duration-ms="643" started-at="2018-05-06T06:54:59Z" finished-at="2018-05-06T06:55:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCountry2 -->
+      </class> <!-- com.restbasics.test.PathParamTest -->
+      <class name="com.restbasics.test.PostQueryParamTest">
+        <test-method status="PASS" signature="postTest()[pri:0, instance:com.restbasics.test.PostQueryParamTest@737996a0]" name="postTest" duration-ms="343" started-at="2018-05-06T06:55:01Z" finished-at="2018-05-06T06:55:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTest -->
+      </class> <!-- com.restbasics.test.PostQueryParamTest -->
+      <class name="com.rest.qc.QC_API">
+        <test-method status="FAIL" signature="qcAuthentication()[pri:0, instance:com.rest.qc.QC_API@735b478]" name="qcAuthentication" duration-ms="6532" started-at="2018-05-06T06:55:02Z" finished-at="2018-05-06T06:55:08Z">
+          <exception class="java.net.UnknownHostException">
+            <message>
+              <![CDATA[usriwgmercury12]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.net.UnknownHostException: usriwgmercury12
+at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+at org.apache.http.client.HttpClient$execute$0.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder.doRequest(RequestSpecificationImpl.groovy:2128)
+at io.restassured.internal.http.HTTPBuilder.post(HTTPBuilder.java:349)
+at io.restassured.internal.http.HTTPBuilder$post$3.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1271)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:149)
+at io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.FilterContext$next.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1731)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1737)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+at io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy:174)
+at io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy)
+at com.rest.qc.QC_API.qcAuthentication(QC_API.java:52)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.UnknownHostException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qcAuthentication -->
+        <test-method status="FAIL" signature="qcGetDomains()[pri:0, instance:com.rest.qc.QC_API@735b478]" name="qcGetDomains" duration-ms="42" started-at="2018-05-06T06:55:08Z" finished-at="2018-05-06T06:55:08Z">
+          <exception class="java.net.UnknownHostException">
+            <message>
+              <![CDATA[usriwgmercury12]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.net.UnknownHostException: usriwgmercury12
+at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+at org.apache.http.client.HttpClient$execute$0.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder.doRequest(RequestSpecificationImpl.groovy:2128)
+at io.restassured.internal.http.HTTPBuilder.post(HTTPBuilder.java:349)
+at io.restassured.internal.http.HTTPBuilder$post$3.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1271)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:149)
+at io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.FilterContext$next.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1731)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1737)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+at io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy:174)
+at io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy)
+at com.rest.qc.QC_API.qcGetDomains(QC_API.java:119)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.UnknownHostException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qcGetDomains -->
+      </class> <!-- com.rest.qc.QC_API -->
+      <class name="com.restbasics2.tests.AddPlaceXMLTest">
+        <test-method status="PASS" signature="getEnvData()[pri:0, instance:com.restbasics2.tests.AddPlaceXMLTest@7225790e]" name="getEnvData" is-config="true" duration-ms="32" started-at="2018-05-06T06:54:52Z" finished-at="2018-05-06T06:54:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEnvData -->
+        <test-method status="PASS" signature="getEnvData()[pri:0, instance:com.rest.twitter.CreateTweet@3551a94]" name="getEnvData" is-config="true" duration-ms="1" started-at="2018-05-06T06:54:52Z" finished-at="2018-05-06T06:54:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEnvData -->
+        <test-method status="PASS" signature="getEnvData()[pri:0, instance:com.restbasics2.tests.AddPlaceXMLTest2@5a61f5df]" name="getEnvData" is-config="true" duration-ms="0" started-at="2018-05-06T06:54:52Z" finished-at="2018-05-06T06:54:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEnvData -->
+        <test-method status="PASS" signature="getEnvData()[pri:0, instance:com.restbasics2.tests.DeleteTest2@2c9f9fb0]" name="getEnvData" is-config="true" duration-ms="1" started-at="2018-05-06T06:54:52Z" finished-at="2018-05-06T06:54:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEnvData -->
+        <test-method status="PASS" signature="getEnvData()[pri:0, instance:com.rest.twitter.DeleteTweet@36f6e879]" name="getEnvData" is-config="true" duration-ms="1" started-at="2018-05-06T06:54:52Z" finished-at="2018-05-06T06:54:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEnvData -->
+        <test-method status="PASS" signature="getEnvData()[pri:0, instance:com.rest.jira.JIRA_AddComments@52af6cff]" name="getEnvData" is-config="true" duration-ms="0" started-at="2018-05-06T06:54:52Z" finished-at="2018-05-06T06:54:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEnvData -->
+        <test-method status="PASS" signature="getEnvData()[pri:0, instance:com.rest.jira.JIRA_Login_Test@54a097cc]" name="getEnvData" is-config="true" duration-ms="1" started-at="2018-05-06T06:54:52Z" finished-at="2018-05-06T06:54:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEnvData -->
+        <test-method status="PASS" signature="getEnvData()[pri:0, instance:com.restbasics3.tests.JsonArray_Log_Test@35fb3008]" name="getEnvData" is-config="true" duration-ms="0" started-at="2018-05-06T06:54:52Z" finished-at="2018-05-06T06:54:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEnvData -->
+        <test-method status="PASS" signature="getEnvData()[pri:0, instance:com.rest.qc.QC_API@735b478]" name="getEnvData" is-config="true" duration-ms="1" started-at="2018-05-06T06:54:52Z" finished-at="2018-05-06T06:54:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEnvData -->
+        <test-method status="PASS" signature="getEnvData()[pri:0, instance:com.rest.twitter.TwitterAPI@531be3c5]" name="getEnvData" is-config="true" duration-ms="1" started-at="2018-05-06T06:54:52Z" finished-at="2018-05-06T06:54:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEnvData -->
+        <test-method status="PASS" signature="addPlaceXML()[pri:0, instance:com.restbasics2.tests.AddPlaceXMLTest@7225790e]" name="addPlaceXML" duration-ms="404" started-at="2018-05-06T06:54:58Z" finished-at="2018-05-06T06:54:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPlaceXML -->
+      </class> <!-- com.restbasics2.tests.AddPlaceXMLTest -->
+      <class name="com.restbasics.test.DeleteTest">
+        <test-method status="PASS" signature="deleteTest()[pri:0, instance:com.restbasics.test.DeleteTest@2096442d]" name="deleteTest" duration-ms="845" started-at="2018-05-06T06:54:57Z" finished-at="2018-05-06T06:54:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTest -->
+      </class> <!-- com.restbasics.test.DeleteTest -->
+      <class name="com.rest.jira.JIRA_AddComments">
+        <test-method status="FAIL" signature="testAddJiraComment(int)[pri:0, instance:com.rest.jira.JIRA_AddComments@52af6cff]" name="testAddJiraComment" duration-ms="0" started-at="2018-05-06T06:55:01Z" finished-at="2018-05-06T06:55:01Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Cannot inject @Test annotated Method [testAddJiraComment] with [int].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Cannot inject @Test annotated Method [testAddJiraComment] with [int].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:407)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:635)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:923)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddJiraComment -->
+      </class> <!-- com.rest.jira.JIRA_AddComments -->
+      <class name="com.restbasics3.tests.JsonArray_Log_Test">
+        <test-method status="PASS" signature="verifyNearByLocation()[pri:0, instance:com.restbasics3.tests.JsonArray_Log_Test@35fb3008]" name="verifyNearByLocation" duration-ms="4854" started-at="2018-05-06T06:54:52Z" finished-at="2018-05-06T06:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNearByLocation -->
+      </class> <!-- com.restbasics3.tests.JsonArray_Log_Test -->
+      <class name="com.rest.twitter.TwitterAPI">
+        <test-method status="FAIL" signature="getTweet()[pri:0, instance:com.rest.twitter.TwitterAPI@531be3c5]" name="getTweet" duration-ms="24" started-at="2018-05-06T06:55:00Z" finished-at="2018-05-06T06:55:00Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[com/github/scribejava/core/model/AbstractRequest]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: com/github/scribejava/core/model/AbstractRequest
+at io.restassured.internal.http.AuthConfig.oauth(AuthConfig.java:184)
+at io.restassured.internal.http.AuthConfig$oauth.call(Unknown Source)
+at io.restassured.authentication.OAuthScheme.authenticate(OAuthScheme.groovy:35)
+at io.restassured.authentication.AuthenticationScheme$authenticate.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+at io.restassured.authentication.AuthenticationScheme$authenticate.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1262)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:149)
+at io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.log.RequestLoggingFilter.filter(RequestLoggingFilter.java:124)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.FilterContext$next.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1731)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1737)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:170)
+at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy)
+at com.rest.twitter.TwitterAPI.getTweet(TwitterAPI.java:50)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+Caused by: java.lang.ClassNotFoundException: com.github.scribejava.core.model.AbstractRequest
+at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+... 95 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTweet -->
+      </class> <!-- com.rest.twitter.TwitterAPI -->
+      <class name="com.rest.jira.JIRA_Login_Test">
+        <test-method status="FAIL" signature="testCreateJIRAIssue()[pri:0, instance:com.rest.jira.JIRA_Login_Test@54a097cc]" name="testCreateJIRAIssue" duration-ms="2" started-at="2018-05-06T06:54:59Z" finished-at="2018-05-06T06:54:59Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.rest.utils.Utils.getJiraSessionID(Utils.java:74)
+at com.rest.jira.JIRA_Login_Test.testCreateJIRAIssue(JIRA_Login_Test.java:45)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateJIRAIssue -->
+      </class> <!-- com.rest.jira.JIRA_Login_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,37 @@
+1522813237313	Delete element
+1522813660111	Copy compilation unit
+1522813671046	Rename type 'VerifyHeaders'
+1522813686846	Rename type 'Basics'
+1522817442049	Copy compilation unit
+1522828539617	Delete element
+1522828549191	Delete element
+1522863223568	Rename package 'com.rest.test'
+1522863231703	Rename package 'com.restbascis.test'
+1522863445173	Rename package 'com.restbasicsadv.tests'
+1522863541146	Copy compilation unit
+1522864056422	Rename type 'DeleteTest'
+1522864654829	Rename field 'properties'
+1522865001677	Rename resource 'Resources.java'
+1522865364994	Delete element
+1522865368099	Delete element
+1522865370059	Delete element
+1522865371817	Delete element
+1522865413789	Move 2 resources to 'resources'
+1522865422820	Rename resource 'resources'
+1522865533853	Rename resource 'GoogleResources.java'
+1522865752929	Delete element
+1522865774474	Copy file
+1522865858892	Delete element
+1522865931064	Rename type 'PayLoad'
+1522902375826	Copy compilation unit
+1522902941424	Copy compilation unit
+1522902953914	Rename type 'resources'
+1522904391996	Rename resource 'addPlacePostData.xml'
+1522920138243	Delete element
+1522920147075	Delete element
+1523010948547	Rename type 'AddPlaceXMLFormatTest'
+1523012571145	Copy compilation unit
+1523015582407	Delete element
+1523015588225	Copy compilation unit
+1523017148197	Rename type 'BasicTest'
+1523017155150	Rename type 'jsonArrayTest'

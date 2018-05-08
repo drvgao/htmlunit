@@ -1,0 +1,11 @@
+package com.rest.qc;
+
+public class resources {
+	public static String QC_AUTHENTICATE = "/qcbin/authentication-point/alm-authenticate";
+
+	// create or add place xml resource.
+	public static String ADDPLACE_POST_RESORUCE_XML = "/maps/api/place/add/xml";
+	
+	// near by resource
+	public static String NEAR_PLACES = "Restuarants near miyapur";
+}

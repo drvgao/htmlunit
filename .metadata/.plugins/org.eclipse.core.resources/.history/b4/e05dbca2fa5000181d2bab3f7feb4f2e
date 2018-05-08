@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 17.756 s <<< FAILURE! - in TestSuite
+testCreateJIRAIssue(com.rest.jira.JIRA_Login_Test)  Time elapsed: 0.018 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.rest.jira.JIRA_Login_Test.testCreateJIRAIssue(JIRA_Login_Test.java:45)
+
+postTweet(com.rest.twitter.CreateTweet)  Time elapsed: 0.043 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: com/github/scribejava/core/model/AbstractRequest
+	at com.rest.twitter.CreateTweet.postTweet(CreateTweet.java:52)
+Caused by: java.lang.ClassNotFoundException: com.github.scribejava.core.model.AbstractRequest
+	at com.rest.twitter.CreateTweet.postTweet(CreateTweet.java:52)
+
+getTweet(com.rest.twitter.TwitterAPI)  Time elapsed: 0.025 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: com/github/scribejava/core/model/AbstractRequest
+	at com.rest.twitter.TwitterAPI.getTweet(TwitterAPI.java:50)
+Caused by: java.lang.ClassNotFoundException: com.github.scribejava.core.model.AbstractRequest
+	at com.rest.twitter.TwitterAPI.getTweet(TwitterAPI.java:50)
+
+testAddJiraComment(com.rest.jira.JIRA_AddComments)  Time elapsed: 1.267 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Cannot inject @Test annotated Method [testAddJiraComment] with [int].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+
+qcAuthentication(com.rest.qc.QC_API)  Time elapsed: 6.525 s  <<< FAILURE!
+java.net.UnknownHostException: usriwgmercury12
+	at com.rest.qc.QC_API.qcAuthentication(QC_API.java:52)
+
+qcGetDomains(com.rest.qc.QC_API)  Time elapsed: 0.077 s  <<< FAILURE!
+java.net.UnknownHostException: usriwgmercury12
+	at com.rest.qc.QC_API.qcGetDomains(QC_API.java:119)
+

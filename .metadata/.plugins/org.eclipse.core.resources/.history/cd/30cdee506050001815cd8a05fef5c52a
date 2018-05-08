@@ -1,0 +1,4 @@
+com\maven\java\SeleniumTest.class
+com\maven\java\AppTest.class
+com\maven\java\RestAPITest.class
+com\maven\java\AppiumTest.class

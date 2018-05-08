@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;BDD&apos; to &apos;NavigatorTrunk&apos;" description="Rename resource &apos;BDD&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/BDD" name="NavigatorTrunk" stamp="1518686717030" updateReferences="true"/>
+</session>

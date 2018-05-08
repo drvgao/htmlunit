@@ -1,0 +1,17 @@
+*** Settings ***
+Library    requests
+Library    Collections
+ 
+ 
+*** Variables ***
+${URL}    http://192.168.0.46:5000
+ 
+ 
+*** Test Cases ***
+ 
+Get signal
+	Create Session gpio_server     ${URL}     verify=True
+	${headers}    = Create Dictionary     Content-Type=application/json     Accept=application/json
+	${pin}    = Get Request gpio_server /api/v1/pin/18     ${headers}
+	Log  ${pin.json()}
+	Delete All Sessions

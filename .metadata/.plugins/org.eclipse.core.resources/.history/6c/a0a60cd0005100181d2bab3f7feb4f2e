@@ -1,0 +1,52 @@
+<h2>Methods run, sorted chronologically</h2><h3>&gt;&gt; means before, &lt;&lt; means after</h3><p/><br/><em>Suite</em><p/><small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table border="1">
+<tr><th>Time</th><th>Delta (ms)</th><th>Suite<br>configuration</th><th>Test<br>configuration</th><th>Class<br>configuration</th><th>Groups<br>configuration</th><th>Method<br>configuration</th><th>Test<br>method</th><th>Thread</th><th>Instances</th></tr>
+<tr bgcolor="f16a6f">  <td>18/05/06 12:59:36</td>   <td>0</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="AddPlaceXMLTest.addPlaceXML()[pri:0, instance:com.restbasics2.tests.AddPlaceXMLTest@36f6e879]">addPlaceXML</td> 
+  <td>main@1525262377</td>   <td></td> </tr>
+<tr bgcolor="f4f06f">  <td>18/05/06 12:59:36</td>   <td>359</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="AddPlaceXMLTest2.addPlaceXML()[pri:0, instance:com.restbasics2.tests.AddPlaceXMLTest2@531be3c5]">addPlaceXML</td> 
+  <td>main@1525262377</td>   <td></td> </tr>
+<tr bgcolor="a29b66">  <td>18/05/06 12:59:35</td>   <td>-810</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="DeleteTest.deleteTest()[pri:0, instance:com.restbasics.test.DeleteTest@234bef66]">deleteTest</td> 
+  <td>main@1525262377</td>   <td></td> </tr>
+<tr bgcolor="99699c">  <td>18/05/06 12:59:43</td>   <td>6946</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="DeleteTest2.deleteTest()[pri:0, instance:com.restbasics2.tests.DeleteTest2@9f70c54]">deleteTest</td> 
+  <td>main@1525262377</td>   <td></td> </tr>
+<tr bgcolor="6ee7cb">  <td>18/05/06 12:59:37</td>   <td>760</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="PathParamTest.getCountry()[pri:0, instance:com.restbasics.test.PathParamTest@737996a0]">getCountry</td> 
+  <td>main@1525262377</td>   <td></td> </tr>
+<tr bgcolor="6ee7cb">  <td>18/05/06 12:59:38</td>   <td>1409</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="PathParamTest.getCountry2()[pri:0, instance:com.restbasics.test.PathParamTest@737996a0]">getCountry2</td> 
+  <td>main@1525262377</td>   <td></td> </tr>
+<tr bgcolor="f16a6f">  <td>18/05/06 12:59:31</td>   <td>-5139</td> <td>&nbsp;</td><td title="&gt;&gt;AddPlaceXMLTest.getEnvData()[pri:0, instance:com.restbasics2.tests.AddPlaceXMLTest@36f6e879]">&gt;&gt;getEnvData</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@1525262377</td>   <td></td> </tr>
+<tr bgcolor="f4f06f">  <td>18/05/06 12:59:31</td>   <td>-5129</td> <td>&nbsp;</td><td title="&gt;&gt;AddPlaceXMLTest2.getEnvData()[pri:0, instance:com.restbasics2.tests.AddPlaceXMLTest2@531be3c5]">&gt;&gt;getEnvData</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@1525262377</td>   <td></td> </tr>
+<tr bgcolor="818063">  <td>18/05/06 12:59:31</td>   <td>-5128</td> <td>&nbsp;</td><td title="&gt;&gt;CreateTweet.getEnvData()[pri:0, instance:com.rest.twitter.CreateTweet@52af6cff]">&gt;&gt;getEnvData</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@1525262377</td>   <td></td> </tr>
+<tr bgcolor="99699c">  <td>18/05/06 12:59:31</td>   <td>-5127</td> <td>&nbsp;</td><td title="&gt;&gt;DeleteTest2.getEnvData()[pri:0, instance:com.restbasics2.tests.DeleteTest2@9f70c54]">&gt;&gt;getEnvData</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@1525262377</td>   <td></td> </tr>
+<tr bgcolor="ebcae2">  <td>18/05/06 12:59:31</td>   <td>-5126</td> <td>&nbsp;</td><td title="&gt;&gt;DeleteTweet.getEnvData()[pri:0, instance:com.rest.twitter.DeleteTweet@3551a94]">&gt;&gt;getEnvData</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@1525262377</td>   <td></td> </tr>
+<tr bgcolor="c36584">  <td>18/05/06 12:59:31</td>   <td>-5125</td> <td>&nbsp;</td><td title="&gt;&gt;JIRA_AddComments.getEnvData()[pri:0, instance:com.rest.jira.JIRA_AddComments@2c9f9fb0]">&gt;&gt;getEnvData</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@1525262377</td>   <td></td> </tr>
+<tr bgcolor="6babb1">  <td>18/05/06 12:59:31</td>   <td>-5125</td> <td>&nbsp;</td><td title="&gt;&gt;JIRA_Login_Test.getEnvData()[pri:0, instance:com.rest.jira.JIRA_Login_Test@5a61f5df]">&gt;&gt;getEnvData</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@1525262377</td>   <td></td> </tr>
+<tr bgcolor="66d39a">  <td>18/05/06 12:59:31</td>   <td>-5124</td> <td>&nbsp;</td><td title="&gt;&gt;JsonArray_Log_Test.getEnvData()[pri:0, instance:com.restbasics3.tests.JsonArray_Log_Test@54a097cc]">&gt;&gt;getEnvData</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@1525262377</td>   <td></td> </tr>
+<tr bgcolor="8d66b2">  <td>18/05/06 12:59:31</td>   <td>-5123</td> <td>&nbsp;</td><td title="&gt;&gt;QC_API.getEnvData()[pri:0, instance:com.rest.qc.QC_API@2096442d]">&gt;&gt;getEnvData</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@1525262377</td>   <td></td> </tr>
+<tr bgcolor="bd92a7">  <td>18/05/06 12:59:31</td>   <td>-5123</td> <td>&nbsp;</td><td title="&gt;&gt;TwitterAPI.getEnvData()[pri:0, instance:com.rest.twitter.TwitterAPI@735b478]">&gt;&gt;getEnvData</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@1525262377</td>   <td></td> </tr>
+<tr bgcolor="bd92a7">  <td>18/05/06 12:59:38</td>   <td>1787</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="TwitterAPI.getTweet()[pri:0, instance:com.rest.twitter.TwitterAPI@735b478]">getTweet</td> 
+  <td>main@1525262377</td>   <td></td> </tr>
+<tr bgcolor="bbe5e8">  <td>18/05/06 12:59:39</td>   <td>2843</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="PostQueryParamTest.postTest()[pri:0, instance:com.restbasics.test.PostQueryParamTest@50f8360d]">postTest</td> 
+  <td>main@1525262377</td>   <td></td> </tr>
+<tr bgcolor="818063">  <td>18/05/06 12:59:37</td>   <td>696</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="CreateTweet.postTweet()[pri:0, instance:com.rest.twitter.CreateTweet@52af6cff]">postTweet</td> 
+  <td>main@1525262377</td>   <td></td> </tr>
+<tr bgcolor="8d66b2">  <td>18/05/06 12:59:39</td>   <td>3186</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="QC_API.qcAuthentication()[pri:0, instance:com.rest.qc.QC_API@2096442d]">qcAuthentication</td> 
+  <td>main@1525262377</td>   <td></td> </tr>
+<tr bgcolor="8d66b2">  <td>18/05/06 12:59:43</td>   <td>6822</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="QC_API.qcGetDomains()[pri:0, instance:com.rest.qc.QC_API@2096442d]">qcGetDomains</td> 
+  <td>main@1525262377</td>   <td></td> </tr>
+<tr bgcolor="6babb1">  <td>18/05/06 12:59:37</td>   <td>684</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="JIRA_Login_Test.testCreateJIRAIssue()[pri:0, instance:com.rest.jira.JIRA_Login_Test@5a61f5df]">testCreateJIRAIssue</td> 
+  <td>main@1525262377</td>   <td></td> </tr>
+<tr bgcolor="a17077">  <td>18/05/06 12:59:38</td>   <td>1806</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HeadersTest.verifyHeader()[pri:0, instance:com.restbasics.test.HeadersTest@61dc03ce]">verifyHeader</td> 
+  <td>main@1525262377</td>   <td></td> </tr>
+<tr bgcolor="66d39a">  <td>18/05/06 12:59:31</td>   <td>-5092</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="JsonArray_Log_Test.verifyNearByLocation()[pri:0, instance:com.restbasics3.tests.JsonArray_Log_Test@54a097cc]">verifyNearByLocation</td> 
+  <td>main@1525262377</td>   <td></td> </tr>
+</table>

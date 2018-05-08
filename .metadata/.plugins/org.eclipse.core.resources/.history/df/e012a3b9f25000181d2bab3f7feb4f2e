@@ -1,0 +1,36 @@
+package com.restbasics.test;
+
+import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.equalTo;
+
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
+
+/**
+ * query parameter example
+ * @author RDURGAM
+ *
+ */
+public class PathParamTest {
+
+	@Test
+	public void postTest() {
+		// 1. base url
+		RestAssured.baseURI = "http://restcountries.eu";
+
+		// 2. parameters
+		// Here the key name 'country' must match the url parameter {country}
+		Response response = given()
+		        .pathParam("country", "Finland")
+		        .when()
+		            .get("/rest/v1/name/{country}")
+		        .then()..body("capital", equalTo("Helsinki")).extract().response();
+//		            .body("capital", equalTo("Helsinki"));
+		String res = null;
+		res = response.asString();
+
+		System.out.println("response: " + res);
+			}
+}
